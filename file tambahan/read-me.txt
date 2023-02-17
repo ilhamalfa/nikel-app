@@ -1,0 +1,48 @@
+> Admin : 
+admin@nikel.com
+admin12345
+
+> Manager :
+manager@nikel.com
+manager12345
+
+> HRGA :
+hrga@nikel.com
+hrga12345
+
+> Finance
+finance@nikel.com
+finance12345
+
+> Operation
+operation@nikel.com
+operation12345
+
+Database Version :
+10.4.24-MariaDB
+
+PHP Version :
+PHP 8.1.6
+
+Framework :
+Laravel 9, Bootstrap 4
+
+Template Dashboard :
+SB Admin
+
+Cara Penggunaan : 
+1. User Diharapkan untuk login
+2. Jika user admin, user dapat menginput form peminjaman
+3. user dapat melakukan input form peminjaman dengan cara, ketika dalam dashboard klik peminjaman pada sidebar disebelah kiri, lalu tekan dorm peminjaman
+4. Form Peminjaman diwajibkan untuk mengisi NIK, Nama driver, kendaraan yang tersedia, persetujuan level 1, persetujuan level 2, tanggal peminjaman, dan tanggal pengembalian
+5. persetujuan level 1 dan persetujuan level 2 tidak bisa orang yang sama
+6. setelah disubmit, maka akan muncul daftar persetujuan untuk pihak level 1
+7. sebelum disetujui oleh pihak level 1, maka pihak level 2 tidak akan mendapatkan daftar persetujuan
+8. jika pihak level 1 tidak mensetujui form, maka form akan otomatis batal sebelum ketingkat pihak kedua
+9. setelah form disetujui, ketika melakukan pengembalian, admin dapat menerima pengembalian pada form pengembalian
+10. jika pengembalian telat, maka status pengembalian akan menjadi telat mengembalikan
+11. admin dapat menambahkan data user, maupun data kendaraan
+12. admin dapat menambahkan jadwal service untuk setiap kendaraan
+13. user kecuali admin dapat melakukan update informasi akun melalui edit user data pada tombol kanan atas
+14. laporan periodik hanya dapat dicetak oleh admin
+15. untuk mencetak laporan periodik, user dapat menekan tombol laporan pada menu peminjaman, laporan akan otomastis terunduh
